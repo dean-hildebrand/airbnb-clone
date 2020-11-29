@@ -1,17 +1,17 @@
-import React from 'react'
-import '../css/card.css'
+import React from "react";
+import "../css/card.css";
 
-
-function Card({ source, title, description, price }) {
+function Card({ src, title, description, price }) {
   return (
     <div className="card">
-    <img src={source} alt="" />
-    <div className="card__info">
-    <h2></h2>
-    <h4></h4>
+      <img src={src} alt="" />
+      <div className="card__info">
+        <h2>{title}</h2>
+        <h4>{description}</h4>
+        <h3>{price}</h3>
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default Card
+export default Card;
