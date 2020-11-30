@@ -26,9 +26,23 @@ function Home() {
         />
       </div>
       <div className="home__section">
-          <Card />
-          <Card />
-          <Card />
+          <Card src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
+          title="3 Bedroom Flat in Charleston"
+          description="Superhost with a stunning view of the beachside in Sunny Charleston South Carolina"
+          price="$130/night"
+          />
+
+          <Card src="https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg"
+          title="Penthouse in New York"
+          description="Enjoy the amazing sites of New York City with this stunning penthouse"
+          price="$350/night"
+          />
+          <Card src="https://media.nomadicmatt.com/2018/apartment.jpg"
+          title="1 Bedroom apartment"
+          description="Superhost with great amenities and an amazing shopping complex nearby"
+          price="$78/night"
+          />
+
         </div>
     </div>
   )
