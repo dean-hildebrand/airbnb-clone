@@ -25,11 +25,20 @@ function SearchPage() {
         total="$140 total"
       />
       <SearchResult
-        img="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU"
-        location="Private room in center of New York"
+        img="https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg"
+        location="Private room in center of London"
         title="Stay at this spacious Edwardian House"
         description="1 guest - 1.5 shared bathrooms - WiFi - Kitchen - Free Parking - W/D"
-        stars={4.67}
+        stars={5.0}
+        price="$68 / night"
+        total="$140 total"
+      />
+      <SearchResult
+        img="https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg"
+        location="Studio Apartment"
+        title="Quaint Neighboor - walkable"
+        description="1 guest - 1.5 shared bathrooms - WiFi - Kitchen - Free Parking - W/D"
+        stars={3.33}
         price="$68 / night"
         total="$140 total"
       />
