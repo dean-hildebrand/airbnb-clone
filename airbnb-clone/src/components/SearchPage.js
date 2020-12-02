@@ -16,7 +16,16 @@ function SearchPage() {
         <Button variant="outlined">More filters</Button>
       </div>
       <SearchResult
-        img=""
+        img="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU"
+        location="Private room in center of New York"
+        title="Stay at this spacious Edwardian House"
+        description="1 guest - 1.5 shared bathrooms - WiFi - Kitchen - Free Parking - W/D"
+        stars={4.67}
+        price="$68 / night"
+        total="$140 total"
+      />
+      <SearchResult
+        img="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU"
         location="Private room in center of New York"
         title="Stay at this spacious Edwardian House"
         description="1 guest - 1.5 shared bathrooms - WiFi - Kitchen - Free Parking - W/D"
