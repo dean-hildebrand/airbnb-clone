@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/searchPage.css";
 import { Button } from "@material-ui/core";
+import SearchResult from './SearchResult'
 
 function SearchPage() {
   return (
@@ -14,6 +15,15 @@ function SearchPage() {
         <Button variant="outlined">Rooms and beds</Button>
         <Button variant="outlined">More filters</Button>
       </div>
+      <SearchResult
+        img=""
+        location="Private room in center of New York"
+        title="Stay at this spacious Edwardian House"
+        description="1 guest - 1.5 shared bathrooms - WiFi - Kitchen - Free Parking - W/D"
+        stars={4.67}
+        price="$68 / night"
+        total="$140 total"
+      />
     </div>
   );
 }
